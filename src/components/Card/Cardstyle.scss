@@ -1,0 +1,64 @@
+.Card{
+  width: 240px;
+  height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  border-radius: 10px;
+  border:3px solid #525257;
+  margin: 10px;
+  background-color: #37373a;
+.Image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 100%;
+
+  img{
+    max-height: 240px;
+    max-width: 300px;
+    min-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 7px;
+
+  }
+}
+  .CharacterInfo{
+    .StatusAndSpecies{
+      .Status{
+        font-weight:normal;
+        font-size: 14px;
+        color: #767683;
+      }
+    }
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    label{
+      font-weight:normal;
+      font-size: 14px;
+      color:#767683;
+    }
+    span{
+      margin-top: 5px;
+      margin-bottom: 9px;
+    }
+    .Location{
+      display: block;
+    }
+    .Gender{
+      display: block;
+    }
+    margin-bottom: 34px;
+    .CharacterName{
+      text-align: center;
+
+    }
+  }
+
+
+}

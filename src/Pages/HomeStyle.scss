@@ -1,0 +1,17 @@
+
+body{
+  background-color: #202021;
+}
+
+.Container {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-45%,-30%);
+
+  border-radius:12px;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto auto auto ;
+
+}
