@@ -1,9 +1,12 @@
 import React from 'react';
-import resim from './Resim.jpg'
 import Cardstyle from './Cardstyle.scss';
+import Services from "../../api/api";
 const MyComponent = () => {
+
+    console.log(Services.getAllCharacter());
     return (
         <div className="Card">
+            <div className="allElements">
             <div className="Image">
                 <img src={"https://rickandmortyapi.com/api/character/avatar/361.jpeg"} alt="characterImage"/>
             </div>
@@ -16,6 +19,7 @@ const MyComponent = () => {
                 <span className="Gender">Male</span>
                 <label>Location:</label>
                 <span className="Location">Earth</span>
+            </div>
             </div>
         </div>
     );

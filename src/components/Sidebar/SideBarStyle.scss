@@ -1,0 +1,34 @@
+.sideBar{
+  color: white;
+  border:  1px solid  #37373a;
+  background-color: #37373a;
+  border-radius: 15px;
+  width: 250px;
+  height: 460px;
+  .searhBarDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .searchBarInput{
+      height: 35px;
+      width: 90%;
+      outline: none;
+      border-radius: 8px;
+      font-weight: bolder;
+      color: black;
+      font-size: 15px;
+    }
+    .searchBarInput::placeholder{
+
+
+    }
+  }
+  #labels{
+
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  }

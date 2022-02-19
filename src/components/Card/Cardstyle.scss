@@ -1,6 +1,6 @@
 .Card{
-  width: 240px;
-  height: 460px;
+  width: 340px;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,6 +10,10 @@
   border:3px solid #525257;
   margin: 10px;
   background-color: #37373a;
+  .allElements{
+    margin-bottom: 45px;
+    width: 340px;
+  }
 .Image{
   display: flex;
   align-items: center;
@@ -18,11 +22,12 @@
   min-width: 100%;
 
   img{
-    max-height: 240px;
-    max-width: 300px;
+    max-height: 360px;
+    max-width: 340px;
     min-width: 100%;
     border-radius: 5px;
     margin-bottom: 7px;
+
 
   }
 }
@@ -56,6 +61,7 @@
     margin-bottom: 34px;
     .CharacterName{
       text-align: center;
+
 
     }
   }

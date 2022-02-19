@@ -1,17 +1,28 @@
 
-body{
+body {
   background-color: #202021;
 }
 
-.Container {
-  position: absolute;
-  top: 50%;
-  left: 60%;
-  transform: translate(-45%,-30%);
+.Dashboard {
+  display: flex;
+  margin-top: 50px;
 
-  border-radius:12px;
-  flex-direction: row;
-  display: grid;
-  grid-template-columns: auto auto auto ;
+  .sideBar {
+
+
+  }
+
+  .Cards {
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    border-radius: 12px;
+    flex-direction: row;
+
+
+  }
 
 }
+
+
