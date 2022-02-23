@@ -18,10 +18,12 @@ const MyComponent = () => {
             <label  id={"labels"}>Gender</label>
             <div className="genderContainer">
                 {
-                    genders.map((gender) =>(
-                        <>
-                            <input type="radio" id={gender} name="fav_language" name={gender}/>
-                            <label htmlFor={gender}>{capitalize(gender)}</label><br/>
+                    genders.map((gender,index) =>(
+                        < >
+                        <div key={index}>
+                            <input  type="radio" id={gender} name="fav_language" name={gender}/>
+                            <label  htmlFor={gender}>{capitalize(gender)}</label><br/>
+                        </div>
                         </>
                     ))
                 }
@@ -31,10 +33,12 @@ const MyComponent = () => {
             <label  id={"labels"} >Status</label>
             <div className="statusContainer">
                 {
-                    statuses.map((status) =>(
+                    statuses.map((status,index) =>(
                         <>
-                            <input type="radio" id={status} name="fav_language" name={status}/>
-                            <label htmlFor={status}>{capitalize(status)}</label><br/>
+                        <div key={index}>
+                            <input  type="radio" id={status} name="fav_language" name={status}/>
+                            <label  htmlFor={status}>{capitalize(status)}</label><br/>
+                        </div>
                         </>
                     ))
                 }
@@ -44,11 +48,13 @@ const MyComponent = () => {
             <label  id={"labels"} >Species</label>
             <div className="speciesContainer">
                 {
-                    species.map((species) =>(
+                    species.map((species,index) =>(
                         <>
+                            <div key={index}>
                             <input type="radio" id={species} name="fav_language"
                                    name={species}/>
                             <label htmlFor={species}>{capitalize(species)}</label><br/>
+                            </div>
                         </>
                     ))
                 }
