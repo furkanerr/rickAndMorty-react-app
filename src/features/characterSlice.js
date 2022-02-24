@@ -41,6 +41,7 @@ const characterSlice = createSlice({
         builder.addCase(fetchAllCharacter.rejected, (state, action) => {
             state.loading = false
             state.error ="Error fetching data"
+            console.log(action)
 
         })
     },

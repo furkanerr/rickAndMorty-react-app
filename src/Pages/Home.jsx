@@ -33,8 +33,8 @@ const Home = () => {
 
             <div className="Dashboard">
 
-                <div className="sideBar">
-                    <SideBar/>
+                <div className="sideBar" >
+                    <SideBar setUrl={setUrl}/>
                 </div>
                 <div className="Cards">
                     {
