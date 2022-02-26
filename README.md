@@ -1,6 +1,15 @@
 
 ![Rick And Morty](https://i.ibb.co/FwP51cV/rick.gif)
 
+### Proje Konusu
+Rick and morty API kullanılarak hazırlanmıştır.API'dan gelen karakter bilgileri ekranda gösterilmektedir.Search bar ile isme göre, radio butonlar ile de cinsiyet, ırk ve hayatta olup olmama özelliklerine göre filtreleme yapılabilir. Her sayfada 20 karakter gösterilir. Daha fazla karakter göstermek için pagination eklenmiştir. 
+
+* **Kullanılan teknolojiler**
+  * React-router-dom   
+  * Axios
+  * Redux-toolkit
+  * SCSS
+
 
 ## Available Scripts
 
