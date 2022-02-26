@@ -1,6 +1,6 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Rick And Morty](https://i.ibb.co/FwP51cV/rick.gif)
+
 
 ## Available Scripts
 
